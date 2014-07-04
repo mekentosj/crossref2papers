@@ -1,0 +1,28 @@
+{
+  "subtitle": [],
+  "subject": [ "General" ],
+  "issued": { "date-parts": [ [ 2014, 7, 2 ] ] },
+  "score": 1,
+  "prefix": "http://id.crossref.org/prefix/10.1038",
+  "author": [
+    { "family": "Ghavi-Helm", "given": "Yad" },
+    { "family": "Klein", "given": "Felix A." },
+    { "family": "Pakozdi", "given": "Tibor" },
+    { "family": "Ciglar", "given": "Lucia" },
+    { "family": "Noordermeer", "given": "Daan" },
+    { "family": "Huber", "given": "Wolfgang" },
+    { "family": "Furlong", "given": "Eileen E. M." }
+  ],
+  "container-title": "Nature",
+  "reference-count": 56,
+  "deposited": { "date-parts": [ [ 2014, 7, 1 ] ], "timestamp": 1404172800000 },
+  "title": "Enhancer loops appear stable during development and are associated with paused polymerase",
+  "type": "journal-article",
+  "DOI": "10.1038/nature13417",
+  "ISSN": [ "0028-0836", "1476-4687" ],
+  "URL": "http://dx.doi.org/10.1038/nature13417",
+  "source": "CrossRef",
+  "publisher": "Nature Publishing Group",
+  "indexed": { "date-parts": [ [ 2014, 7, 3 ] ], "timestamp": 1404431454838 },
+  "member": "http://id.crossref.org/member/339"
+}
