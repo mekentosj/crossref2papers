@@ -10,6 +10,10 @@ PapersParser.prototype.toJSON = function() {
 
   this.result.doi = this.crossRefJson.DOI;
 
+  if (this.crossRefJson.URL) {
+    this.result.url = this.crossRefJson.URL;
+  }
+
   this.result.authors = this.convertAuthorsToPapers();
 
   this.result.bundle_string = this.crossRefJson['container-title'];
@@ -26,7 +30,7 @@ function getFirstName(name) {
 }
 
 PapersParser.prototype.convertAuthorsToPapers = function() {
-  return this.crossRefJson.author.map(function(author) {
+  return (this.crossRefJson.author || []).map(function(author) {
     return {
       fullname: author.given + ' ' + author.family,
       standard_name: author.family + ', ' + author.given,
