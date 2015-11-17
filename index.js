@@ -57,7 +57,7 @@ PapersParser.prototype.convertToBundle = function() {
 PapersParser.prototype.papersDate = function(dateParts) {
   var date;
   var papersDate;
-  if (dateParts && dateParts.length) {
+  if (dateParts && dateParts.length && dateParts[0] && dateParts[0][0]) {
     date = new Date(dateParts);
     papersDate = '99';
     papersDate += date.getFullYear();

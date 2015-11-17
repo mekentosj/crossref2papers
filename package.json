@@ -1,6 +1,6 @@
 {
   "name": "crossref2papers",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Converts CrossRef metadata to the Papers Archive format.",
   "main": "index.js",
   "scripts": {
